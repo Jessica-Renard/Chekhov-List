@@ -40,7 +40,7 @@ function createListElement() {
 
 	//START ADD DELETE BUTTON
 	var dBtn = document.createElement("button");
-	dBtn.appendChild(document.createTextNode("X"));
+	dBtn.appendChild(document.createTextNode("&#10004;"));
 	li.appendChild(dBtn);
 	dBtn.addEventListener("click", deleteListItem);
 	//END ADD DELETE BUTTON
