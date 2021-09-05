@@ -1,2 +1,2 @@
 # Chekhov List
- javascript to-do list app, using node features for dynamic input and modern CSS features
+ Javascript "to-do list" app, drawing upon node features for dynamic input and modern CSS characteristics.
