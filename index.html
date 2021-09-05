@@ -1,0 +1,65 @@
+<!DOCTYPE html> 
+
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Custom Style -->
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <title>Dynamic Chekhov</title>
+
+
+</head>
+
+
+<body>
+    <script type="text/javascript" src="./script.js" async defer></script>
+
+    <div class="container">
+        <div class="row">
+            <div class="intro col-12">
+                <h1>Chekhov List</h1>
+                <h2 id="list-speak">Tell us about it, Anton.</h2>
+                <div>
+                    <div class="border1"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="helpText col-12">
+                <p id="first">Enter items to add to your list.</p>
+                <p id="second">Clicking the list item highlights it.</p>
+                <p id="third">Clicking the "X" removes the list item.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <input id="userInput" type="text" placeholder="New item..." maxlength="36">
+                <button id="enter"><i class="fas fa-pencil-alt"></i></button>
+            </div>
+        </div>
+
+        <!-- Empty List -->
+        <div class="row">
+            <div class="listItems col-12">
+                <ul class="col-12 offset-0 col-sm-8 offset-sm-2">
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
